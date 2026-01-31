@@ -8,8 +8,8 @@
                 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam harum architecto est odit nemo dignissimos culpa debitis necessitatibus consequuntur? Voluptas, facilis harum recusandae nemo quod nam sequi perspiciatis autem cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus optio voluptas at enim esse, quo illo illum ducimus ex? Rem dicta fugiat nihil delectus expedita maiores hic velit quaerat quas?</p> 
                 
-                <router-link to="/projetos/nacionais/projeto_n1">
-                    <a href="#">Saiba +</a>
+                <router-link to="/projetos/nacionais/projeto_n1" class="project-link">
+                    Saiba +
                 </router-link>
             </div>
             <div class="image-sizing">
@@ -26,8 +26,8 @@
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam harum architecto est odit nemo dignissimos culpa debitis necessitatibus consequuntur? Voluptas, facilis harum recusandae nemo quod nam sequi perspiciatis autem cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus optio voluptas at enim esse, quo illo illum ducimus ex? Rem dicta fugiat nihil delectus expedita maiores hic velit quaerat quas?</p>
                 
-                <router-link to="/projetos/nacionais/projeto_n1">
-                    <a href="#">Saiba +</a>
+                <router-link to="/projetos/nacionais/projeto_n1" class="project-link">
+                    Saiba +
                 </router-link>
             </div>
             <div class="image-sizing">
@@ -44,8 +44,8 @@
                 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam harum architecto est odit nemo dignissimos culpa debitis necessitatibus consequuntur? Voluptas, facilis harum recusandae nemo quod nam sequi perspiciatis autem cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus optio voluptas at enim esse, quo illo illum ducimus ex? Rem dicta fugiat nihil delectus expedita maiores hic velit quaerat quas?</p>
                 
-                <router-link to="/projetos/nacionais/projeto_n1">
-                    <a href="#">Saiba +</a>
+                <router-link to="/projetos/nacionais/projeto_n1" class="project-link">
+                    Saiba +
                 </router-link>
             </div>
             <div class="image-sizing">
@@ -63,8 +63,8 @@
                 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam harum architecto est odit nemo dignissimos culpa debitis necessitatibus consequuntur? Voluptas, facilis harum recusandae nemo quod nam sequi perspiciatis autem cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus optio voluptas at enim esse, quo illo illum ducimus ex? Rem dicta fugiat nihil delectus expedita maiores hic velit quaerat quas?</p>
                 
-                <router-link to="/projetos/nacionais/projeto_n1">
-                    <a href="#">Saiba +</a>
+                <router-link to="/projetos/nacionais/projeto_n1" class="project-link">
+                    Saiba +
                 </router-link>
             </div>
             <div class="image-sizing">
@@ -81,8 +81,8 @@
                 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam harum architecto est odit nemo dignissimos culpa debitis necessitatibus consequuntur? Voluptas, facilis harum recusandae nemo quod nam sequi perspiciatis autem cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus optio voluptas at enim esse, quo illo illum ducimus ex? Rem dicta fugiat nihil delectus expedita maiores hic velit quaerat quas?</p>
                 
-                <router-link to="/projetos/nacionais/projeto_n1">
-                    <a href="#">Saiba +</a>
+                <router-link to="/projetos/nacionais/projeto_n1" class="project-link">
+                    Saiba +
                 </router-link>
             </div>
             <div class="image-sizing">
@@ -99,8 +99,8 @@
                 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam harum architecto est odit nemo dignissimos culpa debitis necessitatibus consequuntur? Voluptas, facilis harum recusandae nemo quod nam sequi perspiciatis autem cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus optio voluptas at enim esse, quo illo illum ducimus ex? Rem dicta fugiat nihil delectus expedita maiores hic velit quaerat quas?</p>
                 
-                <router-link to="/projetos/nacionais/projeto_n1">
-                    <a href="#">Saiba +</a>             
+                <router-link to="/projetos/nacionais/projeto_n1" class="project-link">
+                    Saiba +
                 </router-link>
             </div>
             <div class="image-sizing">
@@ -117,8 +117,8 @@
                 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam harum architecto est odit nemo dignissimos culpa debitis necessitatibus consequuntur? Voluptas, facilis harum recusandae nemo quod nam sequi perspiciatis autem cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus optio voluptas at enim esse, quo illo illum ducimus ex? Rem dicta fugiat nihil delectus expedita maiores hic velit quaerat quas?</p>
                 
-                <router-link to="/projetos/nacionais/projeto_n1">
-                    <a href="#">Saiba +</a>
+                <router-link to="/projetos/nacionais/projeto_n1" class="project-link">
+                    Saiba +
                 </router-link>
             </div>
             <div class="image-sizing">
@@ -135,8 +135,8 @@
                 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam harum architecto est odit nemo dignissimos culpa debitis necessitatibus consequuntur? Voluptas, facilis harum recusandae nemo quod nam sequi perspiciatis autem cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus optio voluptas at enim esse, quo illo illum ducimus ex? Rem dicta fugiat nihil delectus expedita maiores hic velit quaerat quas?</p>
                 
-                <router-link to="/projetos/nacionais/projeto_n1">
-                    <a href="#">Saiba +</a>
+                <router-link to="/projetos/nacionais/projeto_n1" class="project-link">
+                    Saiba +
                 </router-link>
             </div>
             <div class="image-sizing">
@@ -228,4 +228,12 @@ h1{
 p{
     text-align: justify;
 }
+.project-link{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 600;
+}
+
 </style>
