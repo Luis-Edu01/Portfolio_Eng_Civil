@@ -1,4 +1,5 @@
 <template>
+    <Navbar />
     <main class="container-project">
         
         <section class="view-project">
@@ -149,8 +150,12 @@
 </template>
 
 <script>
+    import Navbar from "@/components/Navbar.vue"
     export default{
-        name:'Projetos'
+        name:'Projetos',
+        components: {
+            Navbar
+  }
     }
 </script>
 

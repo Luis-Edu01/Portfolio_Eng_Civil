@@ -1,15 +1,22 @@
 <template>
-    <h1>Perfil inicial</h1>
-    <h1>Perfil inicial</h1>
-    <h1>Perfil inicial</h1>
-    <h1>Perfil inicial</h1>
-    <h1>Perfil inicial</h1>
+    <Navbar />
+    <main>
+        <h1>Perfil inicial</h1>
+        <h1>Perfil inicial</h1>
+        <h1>Perfil inicial</h1>
+        <h1>Perfil inicial</h1>
+        <h1>Perfil inicial</h1>
+    </main>
+    
 </template>
-
 <script>
+    import Navbar from "@/components/Navbar.vue"
     export default{
-        name:'Perfil'
-    }
+        name:'Perfil',
+        components: {
+            Navbar
+  }
+}
 </script>
 
 <style scoped>

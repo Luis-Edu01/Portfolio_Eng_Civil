@@ -23,7 +23,7 @@
 
   <div class="button">
     <router-link to="/">
-      <button class="button-portifolio">Portifólio</button>
+      <button class="button-home">Home</button>
     </router-link>
 
     <router-link to="/Projetos">
@@ -38,7 +38,7 @@
 
 <script>
 export default {
-  name: 'NavbarMain',
+  name: 'Navbar',
   data() {
     return {
       isScrolled: false,
@@ -131,7 +131,7 @@ header {
   background-color: #CBBBA0;
 }
 
-.button-portifolio,
+.button-home,
 .button-projetos,
 .button-contato {
   margin: 10px;
@@ -144,7 +144,7 @@ header {
   color: #fff;
 }
 
-.button-portifolio:hover,
+.button-home:hover,
 .button-projetos:hover,
 .button-contato:hover {
   background-color: #A6806A;
