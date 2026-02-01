@@ -13,7 +13,7 @@
                 </router-link>
             </div>
             <div class="image-sizing">
-                <router-link to="/projetos/internacionais/projeto_i1">
+                <router-link to="/projetos/nacionais/projeto_n1">
                     <img class="project-image" src="../assets/exemplo.jpg" alt="Imagem Exemplo">
                 </router-link>
             </div>
@@ -26,12 +26,12 @@
 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam harum architecto est odit nemo dignissimos culpa debitis necessitatibus consequuntur? Voluptas, facilis harum recusandae nemo quod nam sequi perspiciatis autem cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus optio voluptas at enim esse, quo illo illum ducimus ex? Rem dicta fugiat nihil delectus expedita maiores hic velit quaerat quas?</p>
                 
-                <router-link to="/projetos/nacionais/projeto_n1" class="project-link">
+                <router-link to="/projetos/internacionais/projeto_i1" class="project-link">
                     Saiba +
                 </router-link>
             </div>
             <div class="image-sizing">
-                <router-link to="/projetos/nacionais/projeto_n1">
+                <router-link to="/projetos/internacionais/projeto_i1">
                     <img class="project-image" src="../assets/exemplo2.jpg" alt="Imagem Exemplo">
                 </router-link>
             </div>
@@ -87,7 +87,7 @@
             </div>
             <div class="image-sizing">
                 <router-link to="/projetos/nacionais/projeto_n1">
-                    <img class="project-image" src="../assets/exemplo2.jpg" alt="Imagem Exemplo">
+                    <img class="project-image" src="../assets/exemplo.jpg" alt="Imagem Exemplo">
                 </router-link>
             </div>
         </section>
@@ -123,7 +123,7 @@
             </div>
             <div class="image-sizing">
                 <router-link to="/projetos/nacionais/projeto_n1">
-                    <img class="project-image" src="../assets/exemplo2.jpg" alt="Imagem Exemplo">
+                    <img class="project-image" src="../assets/exemplo.jpg" alt="Imagem Exemplo">
                 </router-link>
             </div>
         </section>
@@ -228,6 +228,7 @@ h1{
 p{
     text-align: justify;
 }
+                                    /* Link Saiba + */
 .project-link{
   display:flex;
   justify-content: center;

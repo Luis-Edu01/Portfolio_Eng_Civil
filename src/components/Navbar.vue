@@ -12,14 +12,13 @@
         <source src="@/assets/fundo.mov" type="video/mp4" />
         Seu navegador não suporta vídeo.
       </video>
-    <div class="video-overlay"></div>
-    </div>
-    
-    <div class="texto-header">
-      <h1>teste</h1>
-    </div>
-    
 
+      <div class="video-overlay"></div>
+
+      <div class="texto-header">
+        <h1>teste</h1>
+      </div>
+    </div>
   </header>
 
   <div class="button">
@@ -35,12 +34,11 @@
       <button class="button-contato">Contato</button>
     </router-link>
   </div>
-
 </template>
 
 <script>
 export default {
-  name: 'Navbar',
+  name: 'NavbarMain',
   data() {
     return {
       isScrolled: false,
@@ -50,10 +48,12 @@ export default {
   },
   mounted() {
     window.addEventListener('scroll', this.handleScroll)
-    this.checkScreenSize()
     window.addEventListener('resize', this.checkScreenSize)
+    this.checkScreenSize()
 
-    this.$refs.bgVideo.playbackRate = 0.5 /*--> Controle de velocidade do vídeo */
+    if (this.$refs.bgVideo) {
+      this.$refs.bgVideo.playbackRate = 0.5
+    }
   },
   beforeUnmount() {
     window.removeEventListener('scroll', this.handleScroll)
@@ -62,11 +62,6 @@ export default {
   methods: {
     handleScroll() {
       this.isScrolled = window.scrollY > 0
-    },
-    closeMenu() {
-      if (this.isMobile) {
-        this.menuActive = false
-      }
     },
     checkScreenSize() {
       this.isMobile = window.innerWidth <= 767
@@ -96,7 +91,6 @@ header {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  
 }
 
 .conf-video {
@@ -110,27 +104,30 @@ header {
   z-index: 0;
 }
 
-.video-overlay{
-    position: absolute;
-    inset: 0;
-    background: rgba(39, 38, 38, 0.25);
-    z-index: 1; 
+.video-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(39, 38, 38, 0.25);
+  z-index: 1;
 }
 
-.texto-header{
-  z-index:3;
-  transform: translate(0%, -550%);
-  text-align: center;
-  background-color: transparent;
+.texto-header {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.texto-header h1{
+
+.texto-header h1 {
   color: #FFFFFF;
 }
 
 /* BOTÕES */
 .button {
   text-align: center;
-  padding: 1px;
+  padding: 8px;
   background-color: #CBBBA0;
 }
 
