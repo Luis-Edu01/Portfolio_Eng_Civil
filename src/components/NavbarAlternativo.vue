@@ -1,11 +1,8 @@
 <template>
   <header>
     <div class="header">
-
-      <div class="texto-header">
-        <h1>teste</h1>
+        <img src="../assets/Logo4.png" alt="logo" class="logo">
       </div>
-    </div>
   </header>
 
   <div class="button">
@@ -35,32 +32,25 @@
   box-sizing: border-box;
 }
 
-/* HEADER COM VÍDEO */
 header {
-  width: 100vw;
-  height: 25vh;
-  background-color: #CBBBA0;
+    width: 100vw;
+    height: 34vh;              /* altura FIXA e previsível */
+    position: relative;
+    overflow: hidden;
+    background-color: #000000;
 }
 
-
-.texto-header {
-  position: relative;
-  z-index: 2;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.logo {
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+    display: block;
 }
-
-.texto-header h1 {
-  color: #000000;
-}
-
-/* BOTÕES */
+                                                    /* Botões */
 .button {
   text-align: center;
   padding: 8px;
-  background-color: #CBBBA0;
+  background-color: #000000;
 }
 
 .button-home,

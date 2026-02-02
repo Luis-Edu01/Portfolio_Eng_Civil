@@ -16,8 +16,10 @@
       <div class="video-overlay"></div>
 
       <div class="texto-header">
-        <h1>teste</h1>
+        <h1>Andressa</h1>
+        <p>Projetos que transformam conceito em estrutura!</p>
       </div>
+
     </div>
   </header>
 
@@ -116,15 +118,32 @@ header {
   z-index: 2;
   height: 100%;
   display: flex;
+  flex-direction: column;   
   align-items: center;
   justify-content: center;
+  gap: 12px;   
+  animation: fadeUp 1.5s ease-out forwards; /* Animação */
+}
+.texto-header h1{
+  color: #42fd4b;
+  font-size: 3rem;
+}
+.texto-header p{
+  color: #42fd4b;
+  font-size: 2rem;
+}
+                                /* Animação */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-.texto-header h1 {
-  color: #FFFFFF;
-}
-
-/* BOTÕES */
 .button {
   text-align: center;
   padding: 8px;
@@ -151,4 +170,11 @@ header {
   color: #1C1C1C;
   transition: 0.5s;
 }
+
+
+
+
+
+
+
 </style>
