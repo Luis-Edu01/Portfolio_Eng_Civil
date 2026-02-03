@@ -1,7 +1,7 @@
 <template>
   <footer>
     <p>
-      Criado por 
+      Desenvolvido por 
       <a href="https://github.com/Luis-Edu01" target="_blank" rel="noopener noreferrer">
         Luís Eduardo
       </a>
